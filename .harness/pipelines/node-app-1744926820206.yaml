@@ -39,7 +39,7 @@ pipeline:
                   identifier: BuildAndPushDockerRegistry_2
                   spec:
                     connectorRef: account.DockerHub_Connector
-                    repo: nicolasbenhamou/node
+                    repo: naturalorder/node
                     tags:
                       - DockerPush
           platform:
